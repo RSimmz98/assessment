@@ -7,7 +7,7 @@ const Eventspage = () => {
      <div className="lg:mt-5 flex flex-col mt-8 md:w-5/6 space-y-6 overflow-hidden shadow-md bg-slate-50">
               <img
           src="./birthday-cake.png"
-          alt=""
+          alt="birthday-cake"
           className=" object-center w-[500px] h-[500px] rounded-t-md md:w-[375px]-h-[375px]  dark:bg-gray-500"
         />
      </div>
