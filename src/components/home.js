@@ -24,7 +24,7 @@ const Home = () => {
         🎉 Create my event
       </button>
       </div>
-      <div className="lg:mt-5 flex flex-col md:w-5/6 space-y-6 overflow-hidden shadow-md bg-slate-50">
+      <div className="lg:mt-5 flex flex-col mt-8 md:w-5/6 space-y-6 overflow-hidden shadow-md bg-slate-50">
         <img
           src="https://source.unsplash.com/random/300x300/?2"
           alt=""
