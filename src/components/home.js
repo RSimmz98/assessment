@@ -17,12 +17,15 @@ const Home = () => {
           Easily host and share events with your friends <br /> across any
           social media.
         </p>
+        <Link to="/eventspage">
+   
         <button
         href="/"
         className="bg-gradient-to-r m-5 py-3 px-4 text-center rounded-[10px] text-white w-48 mx-auto from-primaryLight to-primaryLighter lg:hidden"
       >
         🎉 Create my event
       </button>
+      </Link>
       </div>
       <div className="lg:mt-5 flex flex-col mt-8 md:w-5/6 space-y-6 overflow-hidden shadow-md bg-slate-50">
         <img

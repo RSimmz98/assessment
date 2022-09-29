@@ -9,7 +9,11 @@ import { Routes, Route, Link } from "react-router-dom";
 function App() {
   return (
     <div>
-     <Eventspage />
+       <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path ="eventspage" element={<Eventspage />} />
+      </Routes>
+  
 
     </div>
   );
